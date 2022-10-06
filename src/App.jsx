@@ -1,7 +1,6 @@
-import { useState } from 'react'
-import './App.css'
-import Banner from './componentes/Banner'
-import Formulario from './componentes/Formulario'
+
+import Banner from './componentes/Banner/Banner'
+import Formulario from './componentes/Formulario/Formulario'
 
 function App() {
 

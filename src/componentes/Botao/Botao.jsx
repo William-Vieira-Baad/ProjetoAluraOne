@@ -1,6 +1,6 @@
 import './Botao.css'
 
-const Botao = () => {
+const Botao = (props) => {
     return (
         <button className='botao'>
             {/* usamos o props.children para passar elementos filhos dentro de um componente */}

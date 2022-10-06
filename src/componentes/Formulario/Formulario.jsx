@@ -1,7 +1,7 @@
 import "./Formulario.css"
-import CampoTexto from "../CampoTexto"
-import ListaSuspensa from "../ListaSuspensa"
-import Botao from "../Botao"
+import CampoTexto from "../CampoTexto/CampoTexto"
+import ListaSuspensa from "../ListaSuspensa/ListaSuspensa"
+import Botao from "../Botao/Botao"
 
 const Formulario = () => {
     // Lista que vai ser mostrada na listasuspensa
