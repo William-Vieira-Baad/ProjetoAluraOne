@@ -1,4 +1,4 @@
-import './CampoTexto'
+import './CampoTexto.css'
 
 const campoTexto = (props) => {
     return (

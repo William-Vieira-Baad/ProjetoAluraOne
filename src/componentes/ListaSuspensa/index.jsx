@@ -9,9 +9,7 @@ const ListaSuspensa = (props) => {
             <select>
                 {/* cria uma lista novo e devolve os dados dela */}
                 {/* sempre que usar o map tem que usar a key */}
-                {props.item.map(item => <option key={item}>
-                    {item}
-                </option>)}
+                {props.item.map(item => <option key={item}>{item}</option>)}
             </select>
         </div>
     )
